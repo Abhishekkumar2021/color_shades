@@ -1,0 +1,29 @@
+.ColBox {
+	position:relative;
+	width: 300px;
+	height: 200px;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow:hidden;
+	margin:5px;
+	border-radius: 20px;
+	box-shadow:0 10px 30px rgba(0, 0, 0, 0.31);
+}
+.ColBox h1{
+	transform: translateY(150px);
+}
+.ColBox h1 {
+	background: var(--background);
+	padding: 10px 20px;
+	font-size: 20px;
+	box-shadow: var(--shadow);
+	cursor: pointer;
+	border-radius: 5px;
+	transition: 0.3s ease all;
+	font-family: var(--code);
+}
+.ColBox:hover h1{
+	transform: translateY(0px);
+}

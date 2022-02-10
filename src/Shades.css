@@ -1,0 +1,32 @@
+.Shades {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	align-content: flex-start;
+}
+.number {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	font-size: 16px;
+	width: 200px;
+	padding: 10px 15px;
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	box-shadow: var(--shadow);
+}
+
+.color {
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	width: 100px;
+	outline: none;
+	border: none;
+	height: 40px;
+	border-radius: 0;
+	box-shadow: var(--shadow);
+}
