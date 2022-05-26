@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Roboto+Mono:wght@100;200;300&display=swap');
 html {
 	scroll-behavior: smooth;
 }
@@ -14,8 +15,8 @@ html {
 	--color: #00000080;
 	--heading: #4c4c4c;
 	--shadow: 0px 5px 15px rgba(0, 0, 0, 0.286);
-	--text: Montserrat;
-	--code: Roboto Mono;
+	--text: Montserrat,serif;
+	--code: Roboto Mono,serif;
 	--large: 24px;
 	--medium: 20px;
 	--small: 16px;
